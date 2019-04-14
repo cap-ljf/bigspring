@@ -1,0 +1,215 @@
+2019-04-10 20:16:47,973 [restartedMain] INFO  o.c.bigspring.BigspringApplication [Line:50 ] - Starting BigspringApplication on QN-liuxiufang with PID 268712 (D:\workspace\template\bigspring\target\classes started by jifang.liu in D:\workspace\template\bigspring)
+2019-04-10 20:16:47,975 [restartedMain] INFO  o.c.bigspring.BigspringApplication [Line:675] - No active profile set, falling back to default profiles: default
+2019-04-10 20:16:48,066 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [Line:227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-10 20:16:48,066 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [Line:227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-04-10 20:16:49,344 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [Line:330] - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$a6ae528d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-10 20:16:49,734 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:90 ] - Tomcat initialized with port(s): 8080 (http)
+2019-04-10 20:16:49,748 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-10 20:16:49,757 [restartedMain] INFO  o.a.catalina.core.StandardService [Line:173] - Starting service [Tomcat]
+2019-04-10 20:16:49,757 [restartedMain] INFO  o.a.catalina.core.StandardEngine [Line:173] - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-10 20:16:49,894 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring embedded WebApplicationContext
+2019-04-10 20:16:49,894 [restartedMain] INFO  o.s.web.context.ContextLoader [Line:296] - Root WebApplicationContext: initialization completed in 1827 ms
+2019-04-10 20:16:50,423 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor [Line:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-10 20:16:50,504 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [Line:108] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-04-10 20:16:50,764 [restartedMain] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [Line:87 ] - 
+
+Using generated security password: 8aea89ce-db5b-461c-976c-b41ae1d1fa45
+
+2019-04-10 20:16:50,851 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain [Line:43 ] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@36927c30, org.springframework.security.web.context.SecurityContextPersistenceFilter@7823cbfe, org.springframework.security.web.header.HeaderWriterFilter@4a755901, org.springframework.security.web.csrf.CsrfFilter@17ed4fe3, org.springframework.security.web.authentication.logout.LogoutFilter@7173db08, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3d9e1a55, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@12ec1afe, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@246326e4, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4c2a125e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@a5ca9b3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@d6ca423, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1192353, org.springframework.security.web.session.SessionManagementFilter@be363b5, org.springframework.security.web.access.ExceptionTranslationFilter@6f212ab8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4f2792af]
+2019-04-10 20:16:50,942 [restartedMain] INFO  org.quartz.impl.StdSchedulerFactory [Line:1208] - Using default implementation for ThreadExecutor
+2019-04-10 20:16:50,954 [restartedMain] INFO  o.quartz.core.SchedulerSignalerImpl [Line:61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-04-10 20:16:50,954 [restartedMain] INFO  org.quartz.core.QuartzScheduler [Line:229] - Quartz Scheduler v.2.3.1 created.
+2019-04-10 20:16:50,955 [restartedMain] INFO  org.quartz.simpl.RAMJobStore [Line:155] - RAMJobStore initialized.
+2019-04-10 20:16:50,956 [restartedMain] INFO  org.quartz.core.QuartzScheduler [Line:294] - Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-04-10 20:16:50,956 [restartedMain] INFO  org.quartz.impl.StdSchedulerFactory [Line:1362] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-04-10 20:16:50,957 [restartedMain] INFO  org.quartz.impl.StdSchedulerFactory [Line:1366] - Quartz scheduler version: 2.3.1
+2019-04-10 20:16:50,957 [restartedMain] INFO  org.quartz.core.QuartzScheduler [Line:2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@10f80873
+2019-04-10 20:16:50,983 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver [Line:59 ] - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-04-10 20:16:51,290 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer [Line:57 ] - LiveReload server is running on port 35729
+2019-04-10 20:16:51,311 [restartedMain] INFO  o.s.s.quartz.SchedulerFactoryBean [Line:726] - Starting Quartz Scheduler now
+2019-04-10 20:16:51,311 [restartedMain] INFO  org.quartz.core.QuartzScheduler [Line:547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-04-10 20:16:51,349 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-10 20:16:51,367 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:204] - Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-10 20:16:51,370 [restartedMain] INFO  o.c.bigspring.BigspringApplication [Line:59 ] - Started BigspringApplication in 3.844 seconds (JVM running for 4.946)
+2019-04-10 20:16:52,067 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-10 20:16:52,067 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet [Line:524] - Initializing Servlet 'dispatcherServlet'
+2019-04-10 20:16:52,076 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet [Line:546] - Completed initialization in 8 ms
+2019-04-10 20:19:23,533 [restartedMain] INFO  o.c.bigspring.BigspringApplication [Line:50 ] - Starting BigspringApplication on QN-liuxiufang with PID 116756 (D:\workspace\template\bigspring\target\classes started by jifang.liu in D:\workspace\template\bigspring)
+2019-04-10 20:19:23,535 [restartedMain] INFO  o.c.bigspring.BigspringApplication [Line:675] - No active profile set, falling back to default profiles: default
+2019-04-10 20:19:23,589 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [Line:227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-10 20:19:23,589 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [Line:227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-04-10 20:19:24,670 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [Line:330] - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$45c09f8d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-10 20:19:25,056 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:90 ] - Tomcat initialized with port(s): 8080 (http)
+2019-04-10 20:19:25,072 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-10 20:19:25,079 [restartedMain] INFO  o.a.catalina.core.StandardService [Line:173] - Starting service [Tomcat]
+2019-04-10 20:19:25,080 [restartedMain] INFO  o.a.catalina.core.StandardEngine [Line:173] - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-10 20:19:25,181 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring embedded WebApplicationContext
+2019-04-10 20:19:25,181 [restartedMain] INFO  o.s.web.context.ContextLoader [Line:296] - Root WebApplicationContext: initialization completed in 1591 ms
+2019-04-10 20:19:25,695 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor [Line:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-10 20:19:25,777 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [Line:108] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-04-10 20:19:25,999 [restartedMain] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [Line:87 ] - 
+
+Using generated security password: ac90eabd-dd06-4b72-ba17-ed8904ee71b3
+
+2019-04-10 20:19:26,067 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain [Line:43 ] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@678b876, org.springframework.security.web.context.SecurityContextPersistenceFilter@31c07d6f, org.springframework.security.web.header.HeaderWriterFilter@697394bb, org.springframework.security.web.csrf.CsrfFilter@1916a27a, org.springframework.security.web.authentication.logout.LogoutFilter@4af75233, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@366c17b4, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@27a9c3eb, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6625c7e2, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@22b7a7ab, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@36821ae0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@31fd7a97, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@32142d78, org.springframework.security.web.session.SessionManagementFilter@414cba08, org.springframework.security.web.access.ExceptionTranslationFilter@25c7c5f4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@48172b2f]
+2019-04-10 20:19:26,145 [restartedMain] INFO  org.quartz.impl.StdSchedulerFactory [Line:1208] - Using default implementation for ThreadExecutor
+2019-04-10 20:19:26,153 [restartedMain] INFO  o.quartz.core.SchedulerSignalerImpl [Line:61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-04-10 20:19:26,153 [restartedMain] INFO  org.quartz.core.QuartzScheduler [Line:229] - Quartz Scheduler v.2.3.1 created.
+2019-04-10 20:19:26,153 [restartedMain] INFO  org.quartz.simpl.RAMJobStore [Line:155] - RAMJobStore initialized.
+2019-04-10 20:19:26,154 [restartedMain] INFO  org.quartz.core.QuartzScheduler [Line:294] - Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-04-10 20:19:26,154 [restartedMain] INFO  org.quartz.impl.StdSchedulerFactory [Line:1362] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-04-10 20:19:26,154 [restartedMain] INFO  org.quartz.impl.StdSchedulerFactory [Line:1366] - Quartz scheduler version: 2.3.1
+2019-04-10 20:19:26,154 [restartedMain] INFO  org.quartz.core.QuartzScheduler [Line:2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@45cd157
+2019-04-10 20:19:26,169 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver [Line:59 ] - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-04-10 20:19:26,475 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer [Line:57 ] - LiveReload server is running on port 35729
+2019-04-10 20:19:26,511 [restartedMain] INFO  o.s.s.quartz.SchedulerFactoryBean [Line:726] - Starting Quartz Scheduler now
+2019-04-10 20:19:26,512 [restartedMain] INFO  org.quartz.core.QuartzScheduler [Line:547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-04-10 20:19:26,539 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-10 20:19:26,559 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:204] - Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-10 20:19:26,562 [restartedMain] INFO  o.c.bigspring.BigspringApplication [Line:59 ] - Started BigspringApplication in 3.394 seconds (JVM running for 4.473)
+2019-04-10 20:19:27,096 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-10 20:19:27,097 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet [Line:524] - Initializing Servlet 'dispatcherServlet'
+2019-04-10 20:19:27,108 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet [Line:546] - Completed initialization in 10 ms
+2019-04-10 20:26:57,850 [restartedMain] INFO  o.c.bigspring.BigspringApplication [Line:50 ] - Starting BigspringApplication on QN-liuxiufang with PID 279908 (D:\workspace\template\bigspring\target\classes started by jifang.liu in D:\workspace\template\bigspring)
+2019-04-10 20:26:57,852 [restartedMain] INFO  o.c.bigspring.BigspringApplication [Line:675] - No active profile set, falling back to default profiles: default
+2019-04-10 20:26:57,897 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [Line:227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-10 20:26:57,897 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [Line:227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-04-10 20:26:59,111 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [Line:330] - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$ccfa14cd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-10 20:26:59,487 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:90 ] - Tomcat initialized with port(s): 8080 (http)
+2019-04-10 20:26:59,501 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-10 20:26:59,513 [restartedMain] INFO  o.a.catalina.core.StandardService [Line:173] - Starting service [Tomcat]
+2019-04-10 20:26:59,514 [restartedMain] INFO  o.a.catalina.core.StandardEngine [Line:173] - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-10 20:26:59,618 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring embedded WebApplicationContext
+2019-04-10 20:26:59,618 [restartedMain] INFO  o.s.web.context.ContextLoader [Line:296] - Root WebApplicationContext: initialization completed in 1720 ms
+2019-04-10 20:27:00,178 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor [Line:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-10 20:27:00,308 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [Line:108] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-04-10 20:27:00,544 [restartedMain] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [Line:87 ] - 
+
+Using generated security password: f9acbb70-8059-404e-9c54-a7df62cc2408
+
+2019-04-10 20:27:00,605 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain [Line:43 ] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2cf9fea7, org.springframework.security.web.context.SecurityContextPersistenceFilter@3873cb57, org.springframework.security.web.header.HeaderWriterFilter@59318d5e, org.springframework.security.web.csrf.CsrfFilter@29416458, org.springframework.security.web.authentication.logout.LogoutFilter@122d3ff, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5d3417b6, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@711adbe2, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@9ad7f5d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@216752ed, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5ff1e4e3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5c60223d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@15878656, org.springframework.security.web.session.SessionManagementFilter@76abc860, org.springframework.security.web.access.ExceptionTranslationFilter@5dae673a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4dc7ec70]
+2019-04-10 20:27:00,678 [restartedMain] INFO  org.quartz.impl.StdSchedulerFactory [Line:1208] - Using default implementation for ThreadExecutor
+2019-04-10 20:27:00,686 [restartedMain] INFO  o.quartz.core.SchedulerSignalerImpl [Line:61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-04-10 20:27:00,686 [restartedMain] INFO  org.quartz.core.QuartzScheduler [Line:229] - Quartz Scheduler v.2.3.1 created.
+2019-04-10 20:27:00,686 [restartedMain] INFO  org.quartz.simpl.RAMJobStore [Line:155] - RAMJobStore initialized.
+2019-04-10 20:27:00,687 [restartedMain] INFO  org.quartz.core.QuartzScheduler [Line:294] - Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-04-10 20:27:00,687 [restartedMain] INFO  org.quartz.impl.StdSchedulerFactory [Line:1362] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-04-10 20:27:00,687 [restartedMain] INFO  org.quartz.impl.StdSchedulerFactory [Line:1366] - Quartz scheduler version: 2.3.1
+2019-04-10 20:27:00,687 [restartedMain] INFO  org.quartz.core.QuartzScheduler [Line:2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@423f78fd
+2019-04-10 20:27:00,704 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver [Line:59 ] - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-04-10 20:27:00,980 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer [Line:57 ] - LiveReload server is running on port 35729
+2019-04-10 20:27:01,003 [restartedMain] INFO  o.s.s.quartz.SchedulerFactoryBean [Line:726] - Starting Quartz Scheduler now
+2019-04-10 20:27:01,004 [restartedMain] INFO  org.quartz.core.QuartzScheduler [Line:547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-04-10 20:27:01,044 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-10 20:27:01,063 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:204] - Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-10 20:27:01,066 [restartedMain] INFO  o.c.bigspring.BigspringApplication [Line:59 ] - Started BigspringApplication in 3.665 seconds (JVM running for 4.704)
+2019-04-10 20:27:01,611 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-10 20:27:01,612 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet [Line:524] - Initializing Servlet 'dispatcherServlet'
+2019-04-10 20:27:01,620 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet [Line:546] - Completed initialization in 8 ms
+2019-04-10 21:09:37,885 [restartedMain] INFO  o.c.bigspring.BigspringApplication [Line:50 ] - Starting BigspringApplication on QN-liuxiufang with PID 464060 (D:\workspace\template\bigspring\target\classes started by jifang.liu in D:\workspace\template\bigspring)
+2019-04-10 21:09:37,887 [restartedMain] INFO  o.c.bigspring.BigspringApplication [Line:675] - No active profile set, falling back to default profiles: default
+2019-04-10 21:09:37,947 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [Line:227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-10 21:09:37,947 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [Line:227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-04-10 21:09:39,341 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [Line:330] - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$3bff236c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-10 21:09:39,720 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:90 ] - Tomcat initialized with port(s): 8080 (http)
+2019-04-10 21:09:39,734 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-10 21:09:39,744 [restartedMain] INFO  o.a.catalina.core.StandardService [Line:173] - Starting service [Tomcat]
+2019-04-10 21:09:39,744 [restartedMain] INFO  o.a.catalina.core.StandardEngine [Line:173] - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-10 21:09:39,852 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring embedded WebApplicationContext
+2019-04-10 21:09:39,853 [restartedMain] INFO  o.s.web.context.ContextLoader [Line:296] - Root WebApplicationContext: initialization completed in 1906 ms
+2019-04-10 21:09:40,387 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor [Line:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-10 21:09:40,472 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [Line:108] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-04-10 21:09:40,699 [restartedMain] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [Line:87 ] - 
+
+Using generated security password: 92d4173b-a43e-492f-8824-a8f262a3bc16
+
+2019-04-10 21:09:40,775 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain [Line:43 ] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@472f7ac6, org.springframework.security.web.context.SecurityContextPersistenceFilter@2300868, org.springframework.security.web.header.HeaderWriterFilter@43dd3514, org.springframework.security.web.csrf.CsrfFilter@8f2a4f3, org.springframework.security.web.authentication.logout.LogoutFilter@3c09b927, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6c883d6b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@472aeeb5, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@621a9fd0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1d22332d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@835c14f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@8f01fcb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@73b9e504, org.springframework.security.web.session.SessionManagementFilter@3d85e204, org.springframework.security.web.access.ExceptionTranslationFilter@243593ad, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1fa4e0ab]
+2019-04-10 21:09:40,862 [restartedMain] INFO  org.quartz.impl.StdSchedulerFactory [Line:1208] - Using default implementation for ThreadExecutor
+2019-04-10 21:09:40,874 [restartedMain] INFO  o.quartz.core.SchedulerSignalerImpl [Line:61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-04-10 21:09:40,874 [restartedMain] INFO  org.quartz.core.QuartzScheduler [Line:229] - Quartz Scheduler v.2.3.1 created.
+2019-04-10 21:09:40,875 [restartedMain] INFO  org.quartz.simpl.RAMJobStore [Line:155] - RAMJobStore initialized.
+2019-04-10 21:09:40,875 [restartedMain] INFO  org.quartz.core.QuartzScheduler [Line:294] - Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-04-10 21:09:40,875 [restartedMain] INFO  org.quartz.impl.StdSchedulerFactory [Line:1362] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-04-10 21:09:40,875 [restartedMain] INFO  org.quartz.impl.StdSchedulerFactory [Line:1366] - Quartz scheduler version: 2.3.1
+2019-04-10 21:09:40,876 [restartedMain] INFO  org.quartz.core.QuartzScheduler [Line:2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@1bbe9130
+2019-04-10 21:09:40,895 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver [Line:59 ] - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-04-10 21:09:41,377 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer [Line:57 ] - LiveReload server is running on port 35729
+2019-04-10 21:09:41,401 [restartedMain] INFO  o.s.s.quartz.SchedulerFactoryBean [Line:726] - Starting Quartz Scheduler now
+2019-04-10 21:09:41,401 [restartedMain] INFO  org.quartz.core.QuartzScheduler [Line:547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-04-10 21:09:41,434 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-10 21:09:41,457 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:204] - Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-10 21:09:41,463 [restartedMain] INFO  o.c.bigspring.BigspringApplication [Line:59 ] - Started BigspringApplication in 4.075 seconds (JVM running for 5.579)
+2019-04-10 21:09:41,985 [RMI TCP Connection(7)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-10 21:09:41,986 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet [Line:524] - Initializing Servlet 'dispatcherServlet'
+2019-04-10 21:09:42,002 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet [Line:546] - Completed initialization in 16 ms
+2019-04-10 21:11:51,745 [restartedMain] INFO  o.c.bigspring.BigspringApplication [Line:50 ] - Starting BigspringApplication on QN-liuxiufang with PID 163732 (D:\workspace\template\bigspring\target\classes started by jifang.liu in D:\workspace\template\bigspring)
+2019-04-10 21:11:51,747 [restartedMain] INFO  o.c.bigspring.BigspringApplication [Line:675] - No active profile set, falling back to default profiles: default
+2019-04-10 21:11:51,798 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [Line:227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-10 21:11:51,798 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [Line:227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-04-10 21:11:52,939 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [Line:330] - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$a63d102d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-10 21:11:53,324 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:90 ] - Tomcat initialized with port(s): 8080 (http)
+2019-04-10 21:11:53,342 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-10 21:11:53,355 [restartedMain] INFO  o.a.catalina.core.StandardService [Line:173] - Starting service [Tomcat]
+2019-04-10 21:11:53,355 [restartedMain] INFO  o.a.catalina.core.StandardEngine [Line:173] - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-10 21:11:53,465 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring embedded WebApplicationContext
+2019-04-10 21:11:53,466 [restartedMain] INFO  o.s.web.context.ContextLoader [Line:296] - Root WebApplicationContext: initialization completed in 1667 ms
+2019-04-10 21:11:53,989 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor [Line:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-10 21:11:54,069 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [Line:108] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-04-10 21:11:54,330 [restartedMain] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [Line:87 ] - 
+
+Using generated security password: cfb7d8ae-8112-4382-bf27-a6d9c16bea25
+
+2019-04-10 21:11:54,395 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain [Line:43 ] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@ac407f7, org.springframework.security.web.context.SecurityContextPersistenceFilter@15b28620, org.springframework.security.web.header.HeaderWriterFilter@4ab474e6, org.springframework.security.web.csrf.CsrfFilter@202751fb, org.springframework.security.web.authentication.logout.LogoutFilter@3dac9053, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@bdab187, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@22501125, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@36fd9d18, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3d9620ec, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@c5a6d9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@304e8d35, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@58183a86, org.springframework.security.web.session.SessionManagementFilter@4cae4053, org.springframework.security.web.access.ExceptionTranslationFilter@74947367, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2edc5255]
+2019-04-10 21:11:54,472 [restartedMain] INFO  org.quartz.impl.StdSchedulerFactory [Line:1208] - Using default implementation for ThreadExecutor
+2019-04-10 21:11:54,479 [restartedMain] INFO  o.quartz.core.SchedulerSignalerImpl [Line:61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-04-10 21:11:54,479 [restartedMain] INFO  org.quartz.core.QuartzScheduler [Line:229] - Quartz Scheduler v.2.3.1 created.
+2019-04-10 21:11:54,480 [restartedMain] INFO  org.quartz.simpl.RAMJobStore [Line:155] - RAMJobStore initialized.
+2019-04-10 21:11:54,480 [restartedMain] INFO  org.quartz.core.QuartzScheduler [Line:294] - Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-04-10 21:11:54,481 [restartedMain] INFO  org.quartz.impl.StdSchedulerFactory [Line:1362] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-04-10 21:11:54,481 [restartedMain] INFO  org.quartz.impl.StdSchedulerFactory [Line:1366] - Quartz scheduler version: 2.3.1
+2019-04-10 21:11:54,481 [restartedMain] INFO  org.quartz.core.QuartzScheduler [Line:2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@269c37a8
+2019-04-10 21:11:54,496 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver [Line:59 ] - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-04-10 21:11:54,793 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer [Line:57 ] - LiveReload server is running on port 35729
+2019-04-10 21:11:54,818 [restartedMain] INFO  o.s.s.quartz.SchedulerFactoryBean [Line:726] - Starting Quartz Scheduler now
+2019-04-10 21:11:54,818 [restartedMain] INFO  org.quartz.core.QuartzScheduler [Line:547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-04-10 21:11:54,846 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-10 21:11:54,865 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:204] - Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-10 21:11:54,868 [restartedMain] INFO  o.c.bigspring.BigspringApplication [Line:59 ] - Started BigspringApplication in 3.466 seconds (JVM running for 4.559)
+2019-04-10 21:11:55,315 [RMI TCP Connection(7)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-10 21:11:55,316 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet [Line:524] - Initializing Servlet 'dispatcherServlet'
+2019-04-10 21:11:55,322 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet [Line:546] - Completed initialization in 6 ms
