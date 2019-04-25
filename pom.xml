@@ -117,13 +117,6 @@
 			<artifactId>spring-boot-starter-logging</artifactId>
 		</dependency>
 
-		<!-- 短文本相似度匹配 -->
-		<dependency>
-			<groupId>info.debatty</groupId>
-			<artifactId>java-string-similarity</artifactId>
-			<version>1.2.1</version>
-		</dependency>
-
 		<!-- 工具包 -->
 		<dependency>
 			<groupId>com.google.guava</groupId>
