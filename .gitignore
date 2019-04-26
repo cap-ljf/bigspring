@@ -34,3 +34,4 @@ logs/
 .gitignore.swp
 mvnw
 mvnw.cmd
+*.log
