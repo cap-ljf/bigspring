@@ -17,6 +17,7 @@
 	<properties>
 		<java.version>1.8</java.version>
 		<spring-boot-admin.version>2.1.3</spring-boot-admin.version>
+		<swagger.version>2.2.2</swagger.version>
 	</properties>
 
 	<dependencies>
@@ -132,7 +133,17 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
-
+		<!-- restful api 文档-->
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+			<version>${swagger.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>${swagger.version}</version>
+		</dependency>
 	</dependencies>
 
 	<dependencyManagement>
