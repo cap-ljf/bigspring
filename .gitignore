@@ -27,3 +27,10 @@ HELP.md
 
 ### VS Code ###
 .vscode/
+
+#log
+logs/
+.mvn/
+.gitignore.swp
+mvnw
+mvnw.cmd
