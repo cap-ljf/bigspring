@@ -39,6 +39,13 @@
     <logger name="org.capljf.bigspring.controller" level="WARN" additivity="true">
         <appender-ref ref="console"/>
     </logger>
+    <!--显示jdbc日志-->
+    <logger name="org.springframework.jdbc.core" additivity="false" level="DEBUG" >
+        <appender-ref ref="console" />
+    </logger>
+    <!--<logger name="org.springframework.jdbc.core.StatementCreatorUtils" level ="TRACE">-->
+        <!--<appender-ref ref="console" />-->
+    <!--</logger>-->
 
     <!-- 测试环境+开发环境. 多个使用逗号隔开. -->
     <springProfile name="test,dev">
