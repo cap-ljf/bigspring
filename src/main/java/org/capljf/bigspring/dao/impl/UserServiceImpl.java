@@ -12,7 +12,7 @@ import javax.annotation.Resource;
 @Service
 public class UserServiceImpl implements UserService {
 
-    @Resource
+    @Resource(name = "primaryJdbcTemplate")
     private JdbcTemplate jdbcTemplate;
 
     @Override
