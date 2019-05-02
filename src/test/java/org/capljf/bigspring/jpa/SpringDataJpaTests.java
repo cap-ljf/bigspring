@@ -1,6 +1,7 @@
 package org.capljf.bigspring.jpa;
 
 import org.capljf.bigspring.BigspringApplication;
+import org.capljf.bigspring.BigspringApplicationTests;
 import org.capljf.bigspring.dao.CustomerRepository;
 import org.capljf.bigspring.dao.repo.UserRepository;
 import org.capljf.bigspring.dto.Customer;
@@ -11,15 +12,14 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
 
 /**
  * @author jifang.liu created on 2019/4/16 10:18
  */
-@RunWith(SpringJUnit4ClassRunner.class)
-@SpringBootTest(classes = BigspringApplication.class)
-public class SpringDataJpaTests {
+public class SpringDataJpaTests extends BigspringApplicationTests {
     @Autowired
     private CustomerRepository customerRepository;
     @Resource
@@ -48,7 +48,7 @@ public class SpringDataJpaTests {
         userRepository.save(User.of("EEE", 50));
         userRepository.save(User.of("FFF", 60));
         userRepository.save(User.of("GGG", 70));
-        userRepository.save(User.of("HHH", 80));
+        userRepository.save(User.of("HHHHHHHHH", 80));
         userRepository.save(User.of("III", 90));
         userRepository.save(User.of("JJJ", 100));
 
