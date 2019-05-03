@@ -17,30 +17,30 @@ import javax.annotation.Resource;
 public class JdbcTemplateTests {
 
     @Resource
-    private UserService userService;
+    private UserDao userDao;
 
     @Before
     public void setUp(){
-        userService.deleteAllUsers();
+        userDao.deleteAllUsers();
     }
 
     @Test
     public void test(){
         // 插入5个用户
-        userService.create("a", 1);
-        userService.create("b", 2);
-        userService.create("c", 3);
-        userService.create("d", 4);
-        userService.create("e", 5);
+        userDao.create("a", 1);
+        userDao.create("b", 2);
+        userDao.create("c", 3);
+        userDao.create("d", 4);
+        userDao.create("e", 5);
 
         // 查数据库，应该有5个用户
-        Assert.assertEquals(5, userService.getAllUsers().intValue());
+        Assert.assertEquals(5, userDao.getAllUsers().intValue());
 
         // 删除两个用户
-        userService.deleteByName("a");
-        userService.deleteByName("e");
+        userDao.deleteByName("a");
+        userDao.deleteByName("e");
 
         // 查数据库，应该有3个用户
-        Assert.assertEquals(3, userService.getAllUsers().intValue());
+        Assert.assertEquals(3, userDao.getAllUsers().intValue());
     }
 }

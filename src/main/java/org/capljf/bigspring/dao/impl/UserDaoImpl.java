@@ -1,6 +1,6 @@
 package org.capljf.bigspring.dao.impl;
 
-import org.capljf.bigspring.dao.UserService;
+import org.capljf.bigspring.dao.UserDao;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
 
@@ -10,7 +10,7 @@ import javax.annotation.Resource;
  * @author jifang.liu created on 2019/4/27 11:16
  */
 @Service
-public class UserServiceImpl implements UserService {
+public class UserDaoImpl implements UserDao {
 
     @Resource(name = "primaryJdbcTemplate")
     private JdbcTemplate jdbcTemplate;

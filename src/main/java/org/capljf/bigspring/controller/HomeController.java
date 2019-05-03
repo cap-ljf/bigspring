@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletRequest;
 @Slf4j
 public class HomeController {
 
-    @RequestMapping(path = "index", method = RequestMethod.GET)
+    @RequestMapping(path = {"index"}, method = RequestMethod.GET)
     public Object index(HttpServletRequest request){
         log.info("request:{}", (Object[]) request.getCookies());
         log.warn("request:{}", (Object[]) request.getCookies());

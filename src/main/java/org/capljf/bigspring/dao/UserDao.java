@@ -4,7 +4,7 @@ package org.capljf.bigspring.dao;
  * 用户dao层
  * @author jifang.liu created on 2019/4/27 11:14
  */
-public interface UserService {
+public interface UserDao {
     /**
      * 新增一个用户
      * @param name
