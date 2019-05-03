@@ -1,18 +1,15 @@
 package org.capljf.bigspring.jpa;
 
-import org.capljf.bigspring.BigspringApplication;
 import org.capljf.bigspring.BigspringApplicationTests;
 import org.capljf.bigspring.dao.CustomerRepository;
 import org.capljf.bigspring.dao.repo.UserRepository;
 import org.capljf.bigspring.dto.Customer;
 import org.capljf.bigspring.dto.User;
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
-import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import org.springframework.transaction.annotation.Transactional;
+import org.springframework.cache.CacheManager;
 
 import javax.annotation.Resource;
 
@@ -24,6 +21,8 @@ public class SpringDataJpaTests extends BigspringApplicationTests {
     private CustomerRepository customerRepository;
     @Resource
     private UserRepository userRepository;
+    @Resource
+    private CacheManager cacheManager;
 
     @Test
     public void test(){
@@ -69,5 +68,19 @@ public class SpringDataJpaTests extends BigspringApplicationTests {
 
         // 测试findAll, 查询所有记录, 验证上面的删除是否成功
         Assert.assertEquals(9, userRepository.findAll().size());
+    }
+
+    @Before
+    public void before() {
+        userRepository.save(User.of("BBB", 10));
+    }
+
+    @Test
+    public void test3() throws Exception {
+        User u1 = userRepository.findByName("AAA");
+        System.out.println("第一次查询：" + u1.getAge());
+
+        User u2 = userRepository.findByName("AAA");
+        System.out.println("第二次查询：" + u2.getAge());
     }
 }
